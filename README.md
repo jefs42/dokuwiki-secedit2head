@@ -12,3 +12,7 @@ The plugin adds Javascript inline at the end of page content creation. It then r
 
 It only then copies and removes the original edit node and **prepends** it to the h# section heading. All structure, ids, classes are kept in tact. Hover events for *section_highlight* are updated for the change in location to correctly find the parent wrapper to highlight on hover.
 
+### Before
+![Before](https://github.com/jefs42/secedit2head/blob/main/screenshots/before.png)
+### After
+![After](https://github.com/jefs42/secedit2head/blob/main/screenshots/after.png)
