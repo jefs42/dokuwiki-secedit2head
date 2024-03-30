@@ -1,0 +1,7 @@
+base   secedit2head
+author Jef Shilt
+email  github@fortytwo-it.com
+date   2024-03-29
+name   secedit2head plugin
+desc   Relocate section edit buttons to header of the section
+url    https://www.dokuwiki.org/plugin:secedit2head
