@@ -7,7 +7,8 @@ Having the section edit button below each section added more space between secti
 
 ## Details
 The plugin adds Javascript inline at the end of page content creation. It then runs two checks for (default DokuWiki config) deferred Javascript loading.
-  first, that jQuery has loaded
-  second, that DokuWiki's page.js has run the code that creates the section wrappers
+  - first, that jQuery has loaded
+  - second, that DokuWiki's page.js has run the code that creates the section wrappers
+
 It only then copies and removes the original edit node and **prepends** it to the h# section heading. All structure, ids, classes are kept in tact. Hover events for *section_highlight* are updated for the change in location to correctly find the parent wrapper to highlight on hover.
 
